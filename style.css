@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.nav { 
+  background: #000;
+  height: 80px; 
+  width: 100%;
+
+}
+
+
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+text-align: center;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding:  20px;
+  transition: background .5s; 
+}
+.links a {
+	text-decoration:none;
+	color:white;
+}
+h1 {
+	font-size:50px;
+	text-align:center;
+}
+.coverPageSlide {
+  height: 80vh;
+  width: 100vw;
+  background-image: url("file:///C:/Users/User/Desktop/photos/IMG_4062.jpg");
+  background-size: cover;
+  animation: myAnimation alternate infinite 14s;
+  -webkit-animation: myAnimation alternate infinite 14s;
+  -moz-animation: myAnimation alternate infinite 14s;
+  -ms-animation: myAnimation alternate infinite 14s;
+  -o-animation: myAnimation alternate infinite 14s;
+}
+@keyframes myAnimation {
+  33.33% {
+    background-image: url("file:///C:/Users/User/Desktop/photos/IMG_4063.jpg");
+  }
+  66.66% {
+    background-image: url("file:///C:/Users/User/Desktop/photos/IMG_4060.jpg");
+  }
+  99.99% {
+    background-image: url("file:///C:/Users/User/Desktop/photos/IMG_4061.jpg");
+  }
+}
